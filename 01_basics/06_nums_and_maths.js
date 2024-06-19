@@ -20,3 +20,18 @@ console.log(otherBigNumber.toLocaleString());
 console.log(otherBigNumber.toLocaleString('en-IN'));
 
 console.log(Number.MAX_SAFE_INTEGER); //Others can be found as well
+
+
+// ************************* Maths ****************************
+
+console.log(Math.abs(-4));
+console.log(Math.round(4.3));
+console.log(Math.ceil(4.3));
+console.log(Math.floor(4.2));
+console.log(Math.random());// by default gives number bw 0 - 1
+
+//OTP Number Generation
+const min = 100001;
+const max = 999999;
+
+console.log(Math.floor((Math.random()) * (max - min + 1)) + min);
